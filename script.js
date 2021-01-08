@@ -23,5 +23,4 @@ lottery_button.addEventListener("click", () => {
         btn.textContent = sorted_numbers[i];
         i++;
     })
-
 })
