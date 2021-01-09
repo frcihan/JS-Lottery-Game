@@ -23,7 +23,7 @@ lottery_button.addEventListener("click", () => {
         setTimeout(() => {
             btn.textContent = sorted_numbers[i];
             i++;
-        }, i * 2000)
+        }, i * 1500)
         
     })
 })
