@@ -19,8 +19,11 @@ lottery_button.addEventListener("click", () => {
     console.log("sorted_numbers:", sorted_numbers);
 
     let i = 0;
-    buttons.forEach((btn) => {
-        btn.textContent = sorted_numbers[i];
-        i++;
+    buttons.forEach((btn, i) => {
+        setTimeout(() => {
+            btn.textContent = sorted_numbers[i];
+            i++;
+        }, i * 2000)
+        
     })
 })
